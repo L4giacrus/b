@@ -1,0 +1,16 @@
+<input id="n">
+<button onclick="c()">ok</button>
+<p id="r"></p>
+
+<script>
+v=[]
+
+c=()=>{
+
+v.push(Number(n.value))
+
+if(v.length==5)
+r.innerHTML=(v[0]+v[1]+v[2]+v[3]+v[4])/5
+
+}
+</script>
